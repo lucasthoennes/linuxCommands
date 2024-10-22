@@ -1,0 +1,10 @@
+see USB id
+sudo fdisk -l
+
+make iso 
+extract then edit files in folder
+mkisofs -o outputfilename.iso /home/lucas/folder
+
+
+burn iso to USB
+sudo dd bs=1M if=./VeeamRecoveryMedia_ast3-35.iso of=/dev/sdc status=progress oflag=sync
