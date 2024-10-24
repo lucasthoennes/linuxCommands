@@ -1,0 +1,1 @@
+copy startup-config tftp 10.2.3.197 filename
