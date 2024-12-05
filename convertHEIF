@@ -1,0 +1,5 @@
+sudo apt install libheif-examples
+heif-convert image.HEIC new-image.jpg
+
+To have max quality
+heif-convert -q 100 image.HEIC new-image.jpg
